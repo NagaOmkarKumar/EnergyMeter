@@ -1,0 +1,16 @@
+﻿<Application x:Class="Project_K.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Project_K"
+             StartupUri="View/RoboWorks.xaml">
+    <Application.Resources>
+        
+        <!--<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:Project_K.ViewModel">
+            <vm:LogInVM x:Key="LogInVM"/>
+        </ResourceDictionary>-->
+        
+
+    </Application.Resources>
+</Application>

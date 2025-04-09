@@ -1,0 +1,416 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WPF_Projects\\Project K\\Project K - JBM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\viewmodel\\roboworksvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:viewmodel\\roboworksvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\view\\roboworks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:view\\roboworks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\viewmodel\\generatereportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:viewmodel\\generatereportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\model\\meterdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:model\\meterdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\trayicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:trayicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\project k.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:project k.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\viewmodel\\metervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:viewmodel\\metervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\view\\roboworks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:view\\roboworks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\view\\metertype.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:view\\metertype.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\view\\generatereport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:view\\generatereport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\view\\generatereport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:view\\generatereport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\view\\metertype.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:view\\metertype.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\viewmodel\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:viewmodel\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\project k.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:project k.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\viewmodel\\helpers\\stringtodoubleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:viewmodel\\helpers\\stringtodoubleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\model\\energydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:model\\energydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\viewmodel\\viewmodelvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:viewmodel\\viewmodelvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\model\\minmaxvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:model\\minmaxvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\model\\meterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:model\\meterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:model\\filepath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|d:\\wpf_projects\\project k\\project k - jbm\\viewmodel\\helpers\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF30698-A9A6-44D5-A52F-03CFB54E481F}|Project K.csproj|solutionrelative:viewmodel\\helpers\\delegatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoboWorks.xaml",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\RoboWorks.xaml",
+              "RelativeDocumentMoniker": "View\\RoboWorks.xaml",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\RoboWorks.xaml",
+              "RelativeToolTip": "View\\RoboWorks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-15T04:48:44.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MeterType.xaml",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\MeterType.xaml",
+              "RelativeDocumentMoniker": "View\\MeterType.xaml",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\MeterType.xaml",
+              "RelativeToolTip": "View\\MeterType.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T10:21:46.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenerateReportVM.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\GenerateReportVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\GenerateReportVM.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\GenerateReportVM.cs",
+              "RelativeToolTip": "ViewModel\\GenerateReportVM.cs",
+              "ViewState": "AgIAALMCAAAAAAAAAAAmwLwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T05:52:50.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenerateReport.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\GenerateReport.xaml.cs",
+              "RelativeDocumentMoniker": "View\\GenerateReport.xaml.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\GenerateReport.xaml.cs",
+              "RelativeToolTip": "View\\GenerateReport.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:48:55.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoboWorksVM.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\RoboWorksVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RoboWorksVM.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\RoboWorksVM.cs",
+              "RelativeToolTip": "ViewModel\\RoboWorksVM.cs",
+              "ViewState": "AgIAAKcBAAAAAAAAAAAUwLMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T04:38:54.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MinMaxValues.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\MinMaxValues.cs",
+              "RelativeDocumentMoniker": "Model\\MinMaxValues.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\MinMaxValues.cs",
+              "RelativeToolTip": "Model\\MinMaxValues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T06:38:46.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DelegateCommand.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\Helpers\\DelegateCommand.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Helpers\\DelegateCommand.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\Helpers\\DelegateCommand.cs",
+              "RelativeToolTip": "ViewModel\\Helpers\\DelegateCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:27:37.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewModelVM.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\ViewModelVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ViewModelVM.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\ViewModelVM.cs",
+              "RelativeToolTip": "ViewModel\\ViewModelVM.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T07:06:15.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:49:24.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MeterType.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\MeterType.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MeterType.xaml.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\MeterType.xaml.cs",
+              "RelativeToolTip": "View\\MeterType.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:52:50.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MeterVM.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\MeterVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MeterVM.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\MeterVM.cs",
+              "RelativeToolTip": "ViewModel\\MeterVM.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAASwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:43:37.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoboWorks.xaml.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\RoboWorks.xaml.cs",
+              "RelativeDocumentMoniker": "View\\RoboWorks.xaml.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\RoboWorks.xaml.cs",
+              "RelativeToolTip": "View\\RoboWorks.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:53:02.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnergyData.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\EnergyData.cs",
+              "RelativeDocumentMoniker": "Model\\EnergyData.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\EnergyData.cs",
+              "RelativeToolTip": "Model\\EnergyData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:06:58.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TrayIcon.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\TrayIcon.cs",
+              "RelativeDocumentMoniker": "TrayIcon.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\TrayIcon.cs",
+              "RelativeToolTip": "TrayIcon.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwD0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T06:03:17.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Project K.csproj",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Project K.csproj",
+              "RelativeDocumentMoniker": "Project K.csproj",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Project K.csproj",
+              "RelativeToolTip": "Project K.csproj",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T06:16:14.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Code.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Code.cs",
+              "RelativeDocumentMoniker": "Code.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Code.cs",
+              "RelativeToolTip": "Code.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAgwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T09:55:13.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Project K",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Project K.csproj",
+              "RelativeDocumentMoniker": "Project K.csproj",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Project K.csproj",
+              "RelativeToolTip": "Project K.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T12:46:00.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StringToDoubleConverter.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\Helpers\\StringToDoubleConverter.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Helpers\\StringToDoubleConverter.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\Helpers\\StringToDoubleConverter.cs",
+              "RelativeToolTip": "ViewModel\\Helpers\\StringToDoubleConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:22:17.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T02:05:47.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenerateReport.xaml",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\GenerateReport.xaml",
+              "RelativeDocumentMoniker": "View\\GenerateReport.xaml",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\View\\GenerateReport.xaml",
+              "RelativeToolTip": "View\\GenerateReport.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T10:21:16.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Commands\\RelayCommand.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\ViewModel\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModel\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:00:42.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeterDetails.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\MeterDetails.cs",
+              "RelativeDocumentMoniker": "Model\\MeterDetails.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\MeterDetails.cs",
+              "RelativeToolTip": "Model\\MeterDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T09:55:29.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MeterData.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\MeterData.cs",
+              "RelativeDocumentMoniker": "Model\\MeterData.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\MeterData.cs",
+              "RelativeToolTip": "Model\\MeterData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:12:27.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FilePath.cs",
+              "DocumentMoniker": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\FilePath.cs",
+              "RelativeDocumentMoniker": "Model\\FilePath.cs",
+              "ToolTip": "D:\\WPF_Projects\\Project K\\Project K - JBM\\Model\\FilePath.cs",
+              "RelativeToolTip": "Model\\FilePath.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T04:49:32.037Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
