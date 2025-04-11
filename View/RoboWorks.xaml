@@ -1,0 +1,212 @@
+﻿<Window x:Class="Project_K.View.RoboWorks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_K.View"
+        xmlns:vm="clr-namespace:Project_K.ViewModel"
+        xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+        xmlns:vms="c"
+        mc:Ignorable="d"
+        Title="JBM OGIHARA" Icon="assets\JBM_ICON.ico" Height="520" Width="900" MinHeight="720" MinWidth="1470" WindowStyle="ThreeDBorderWindow" ResizeMode="CanResizeWithGrip" Background="LightGray">
+    <Window.DataContext>
+        <vm:RoboWorksVM/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid.Resources>
+            <Style x:Key="button_font" TargetType="Button">
+                <Setter Property="FontFamily" Value="Segoe"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Height" Value="30"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+            </Style>
+
+            <Style x:Key="label_font" TargetType="Label">
+                <Setter Property="FontFamily" Value="Segoe"/>
+                <Setter Property="FontSize" Value="9"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Height" Value="20"/>
+            </Style>
+
+            <ControlTemplate x:Key="button" TargetType="Button">
+
+                <Grid>
+                    <Border x:Name="bor" Background="Green"  CornerRadius="8"></Border>
+                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                </Grid>
+
+                <ControlTemplate.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" TargetName="bor" Value="skyblue"/>
+                    </Trigger>
+                </ControlTemplate.Triggers>
+
+            </ControlTemplate>
+        </Grid.Resources>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="0.1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0">
+                <Image Source="pack://application:,,,/View/assets/JBM.png" Margin="6,6,0,6" HorizontalAlignment="Right" Stretch="Fill"/>
+             </Grid>
+            <Grid Grid.Column="1">
+                <Image Source="pack://application:,,,/View/assets/OGIHARA.PNG" Margin="0,6,0,6" HorizontalAlignment="Left" Stretch="Fill"/>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Button x:Name="DASHBOARD" VerticalAlignment="Center" Style="{StaticResource button_font}" Content="Refresh" Template="{DynamicResource button}" Command="{Binding RefreshCommand}"/>
+            </Grid>
+            <!--<Grid Grid.Column="4">
+                <Button x:Name="SETTINGS" VerticalAlignment="Center" Style="{StaticResource button_font}"  Template="{DynamicResource button}" Command="{Binding ViewAnalysisCommand}">View Analysis</Button>
+            </Grid>-->
+            <Grid Grid.Column="5">
+                <Button x:Name="REPORTS" VerticalAlignment="Center"  Style="{StaticResource button_font}" Template="{DynamicResource button}" Command="{Binding GenerateReportCommand}">Generate Report</Button>
+            </Grid>
+            <Grid Grid.Column="7">
+                <Button x:Name="MeterInfo" VerticalAlignment="Center" Style="{StaticResource button_font}" Template="{DynamicResource button}" Command="{Binding MeterInfoCommand}">Add Meter</Button>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!--<Label Grid.Column="0" Content="A Group of JBM OGIHARA Industries Pvt Ltd" FontSize="20" Height="Auto" FontFamily="Verdana" Padding="20,7,6,0"  HorizontalAlignment="Left"/>-->
+            <TextBlock Grid.Column="2" Text="{Binding Today}" FontSize="20" Height="Auto" FontWeight="DemiBold" FontFamily="Verdana" Padding="55,7,120,0"  HorizontalAlignment="Right"/>
+            <ComboBox Grid.Column="1"  x:Name="MeterComboBox" 
+                  VerticalAlignment="Center" 
+                  HorizontalAlignment="Center" 
+                  Width="200"
+                  Height="30"
+                  Margin="0,0,0,0" 
+                  SelectedIndex="0"
+                  ItemsSource="{Binding Meters}"
+                  SelectedItem="{Binding SelectedMeter, Mode=TwoWay}" SelectionChanged="MeterComboBox_SelectionChanged">
+            </ComboBox>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120*" />
+                <ColumnDefinition Width="120*"/>
+                <ColumnDefinition Width="250*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0"  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120*" ></RowDefinition>
+                    <RowDefinition Height="Auto" ></RowDefinition>
+                    <RowDefinition Height="120*" ></RowDefinition>
+                    <RowDefinition Height="Auto" ></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <StackPanel Grid.Row="0" Orientation="Vertical" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <TextBlock Text="{Binding SelectedMeter}"  Height="Auto" FontWeight="Bold" FontFamily="Courier New" Padding="25,0,0,10"  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="MaxVoltage : " VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0,0,10"/>
+                        <TextBlock Height="30" FontSize="15" FontFamily="Verdana" MinWidth="300" Margin="10,0" Text="{Binding MaxVoltage}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="MaxCurrent :" VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0,0,10"/>
+                        <TextBlock Height="20" FontSize="15" FontFamily="Verdana" MinWidth="300" Margin="10,0" VerticalAlignment="Center" Text="{Binding MaxCurrent}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="MaxPF :   " VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0,30,10"/>
+                        <TextBlock Height="20" FontSize="15" FontFamily="Verdana" MinWidth="300" Margin="10,0" Text="{Binding MaxPF}" />
+                    </StackPanel>
+                    <!--<StackPanel Orientation="Horizontal">
+                            <TextBlock Text="KWH :" VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0"/>
+                            <TextBlock Height="30" FontSize="20" MinWidth="300" Margin="10,0" Text="{Binding KWH}"/>
+                        </StackPanel>-->
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="MinVoltage : " VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0,0,10"/>
+                        <TextBlock Height="20" FontSize="15" FontFamily="Verdana" MinWidth="300" Margin="10,0" Text="{Binding MinVoltage}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="MinCurrent :" VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0,0,10"/>
+                        <TextBlock Height="20" FontSize="15" FontFamily="Verdana" MinWidth="300" Margin="10,0" Text="{Binding MinCurrent}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="MinPF :   " VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0,30,5"/>
+                        <TextBlock Height="20" FontSize="15" FontFamily="Verdana" MinWidth="300" Margin="10,0" Text="{Binding MinPF}" />
+                    </StackPanel>
+                    <!--<StackPanel Orientation="Horizontal">
+                        <TextBlock Text="KWH :" VerticalAlignment="Center" FontFamily="Cambria" FontSize="20" Margin="10,0"/>
+                        <TextBlock Height="30" FontSize="20" MinWidth="300" Margin="10,0" Text="{Binding KWH}"/>
+                    </StackPanel>-->
+                </StackPanel>
+                               
+                <Grid Grid.Row="1" Margin="10">
+                    <TextBlock Text="{Binding Title.Text}" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                </Grid>
+                <Grid Grid.Row="2" Margin="10">
+                     <lvc:CartesianChart Series="{Binding Series}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                </Grid>
+                <Grid Grid.Row="3" >
+                    <Label  FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <Bold>©Roboworks Automation, 2024</Bold>
+                    </Label>
+                </Grid>
+            </Grid>
+            
+            <Grid Grid.Column="1"  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" ></RowDefinition>
+                    <RowDefinition Height="*" ></RowDefinition>
+                    <RowDefinition Height="Auto" ></RowDefinition>
+                    <RowDefinition Height="*" ></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <Grid Grid.Row="0" Margin="10,0,0,0">
+                    <TextBlock Text="{Binding Title1.Text}" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                </Grid>
+                <Grid Grid.Row="1" Margin="10">
+                    <lvc:CartesianChart Series="{Binding Series1}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                </Grid>
+                <Grid Grid.Row="2" >
+                    <TextBlock Text="{Binding Title2.Text}" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                </Grid>
+                <Grid Grid.Row="3" Margin="10" >
+                    <lvc:CartesianChart Series="{Binding Series2}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="5,10,5,5"/>
+                </Grid>
+            </Grid>
+            
+            <Grid Grid.Column="2" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <Grid Grid.Row="0" Margin="10,0,0,0">
+                    <TextBlock Text="{Binding Title3.Text}" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                </Grid>
+                
+                <Grid Grid.Row="1" Margin="10">
+                    <lvc:CartesianChart Series="{Binding Series3}" XAxes="{Binding XAxes}"/>
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>

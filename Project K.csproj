@@ -1,0 +1,145 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Project_K</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>View\assets\JBM_ICON.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\assets\cropped_image.png" />
+    <None Remove="View\assets\Darkinside.png" />
+    <None Remove="View\assets\ec_background_image.jpg" />
+    <None Remove="View\assets\Footer.Final.png" />
+    <None Remove="View\assets\Footer.Final1.png" />
+    <None Remove="View\assets\Footer.png" />
+    <None Remove="View\assets\FooterAddress %283%29.png" />
+    <None Remove="View\assets\FooterAddress.png" />
+    <None Remove="View\assets\Footer_Data.png" />
+    <None Remove="View\assets\HomePage_BackGround.png" />
+    <None Remove="View\assets\HomePage_BackGround1.png" />
+    <None Remove="View\assets\JBM LOGO.png" />
+    <None Remove="View\assets\JBM.PNG" />
+    <None Remove="View\assets\JBM_ICON.ico" />
+    <None Remove="View\assets\LetterHead_Color.png" />
+    <None Remove="View\assets\LetterHead_DiffImage.png" />
+    <None Remove="View\assets\OGIHARA.PNG" />
+    <None Remove="View\assets\RWlogo1.png" />
+    <None Remove="View\assets\RWlogo2.png" />
+    <None Remove="View\assets\RW_TextLOGO.jpg" />
+    <None Remove="View\assets\Untitled design.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>6</VersionMinor>
+      <VersionMajor>9</VersionMajor>
+      <Guid>00062fff-0000-0000-c000-000000000046</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+	  <PackageReference Include="PdfSharp" Version="6.1.1" />
+	  <PackageReference Include="System.Windows.Forms" Version="4.0.0" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-rc2" />
+    <PackageReference Include="MailKit" Version="4.7.1.1" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Office.Interop.Outlook" Version="15.0.4797.1004" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.122" />
+    <PackageReference Include="MimeKit" Version="4.7.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SkiaSharp" Version="2.88.8" />
+    <PackageReference Include="sqlite-net" Version="1.6.292" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.0" />
+	  <!--<PackageReference Include="LiveChartsCore.SkiaSharpView" Version="2.4.18" />-->
+  </ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="View\assets\cropped_image.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\Darkinside.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\ec_background_image.jpg">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\Footer.Final.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\Footer.Final1.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\Footer.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\FooterAddress (3).png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\FooterAddress.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\Footer_Data.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\HomePage_BackGround.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\HomePage_BackGround1.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\JBM LOGO.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\JBM.PNG">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\JBM_ICON.ico">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\LetterHead_Color.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\LetterHead_DiffImage.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\OGIHARA.PNG">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\RWLogo.PNG" />
+		<Resource Include="View\assets\RWLogo.ICO" />
+		<Resource Include="View\assets\RWlogo1.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\RWlogo2.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\RW_TextLOGO.jpg">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="View\assets\Untitled design.png">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Resource>
+		
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="View\assets\RWLogo.ico">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+
+</Project>
