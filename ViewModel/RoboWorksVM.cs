@@ -435,7 +435,7 @@ namespace Project_K.ViewModel
                              //Trace.WriteLine(ipAddress);
 
                             if (response.IsSuccessStatusCode)
-                               // if (true)
+                               // if (true) this is a comment.
                             {
                                 string responseBody = await response.Content.ReadAsStringAsync();
                                 //Trace.WriteLine(responseBody);
